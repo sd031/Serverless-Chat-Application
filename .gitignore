@@ -1,0 +1,35 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+
+# Lambda
+lambda/**/node_modules/
+lambda/**/*.zip
+lambda/**/package-lock.json
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/package-lock.json
+
+# Environment
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
